@@ -1,0 +1,168 @@
+body{
+
+	padding: 2px;
+}
+
+.container{
+  padding-top: 10px;
+  padding-bottom: 8px;
+  display: block;
+  height: 250px;
+
+}
+.container .row{
+
+	display: block;
+	height: 30px;
+	padding-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.col-md-3{
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 25%;
+	float: left;
+}
+.col-md-7{
+	width: 70%;
+	float: left;
+}
+
+.headerCss{
+	border-top: 0px none;
+	border-left: 0px none;
+	border-right: 0px none;
+}
+.bodyCls{
+	border-left: 0px none;
+	border-right: 0px none;
+}
+.layout-expand-north .panel-header{
+
+	border-top: 0px none;
+	border-left: 0px none;
+	border-right: 0px none;
+}
+.titleContainer{
+
+	margin: 0 auto;
+	width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #F5F7FA;
+}
+.titleContainer form{
+
+
+	margin: 0 auto;
+	width: 800px;
+}
+
+.tf{
+	overflow: hidden;
+}
+
+
+
+.tf > div{
+	display: block;
+	margin-bottom: 15px;
+}
+.tf .tit{
+	float: left;
+	width: 15%;
+}
+.tf .ipt{
+    float: left;
+	width: 75%;
+}
+.tbtn{
+
+	margin: 0 auto;
+	width: 280px;
+}
+
+.tbd{
+
+	background-color: #AAB2BD;
+}
+
+
+.lf ul{
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	list-style: none;
+}
+
+.lf ul li{
+
+	display: block;
+}
+
+
+
+.lf ul li a{
+
+
+	display: block;
+	text-align: center;
+
+}
+.query {
+	height: 100%;
+}
+
+.query form{
+
+	padding-left: 50px;
+	padding-top: 15px;
+	height: 30px;
+	
+
+}
+
+.query form div{
+
+	float: left;
+	width: 300px;
+
+
+}
+.querybtn{
+	display: block;
+	padding-right: 50px;
+}
+.query .querybtn a{
+	display: block;
+	float: right;
+	margin-right: 10px;
+
+}
+
+/*重写easyui*/
+.textbox{
+
+	border-radius: 0px;
+
+}
+
+.textbox .textbox-text {
+
+	border-radius: 0px;
+	
+}
+.l-btn{
+	border-radius: 0px;
+}
+.l-btn-plain:hover{
+	border-radius: 0px;
+}
+.l-btn-focus {
+    outline-color: #0000ff;
+    outline-style: none;
+    outline-width: thin;
+}
